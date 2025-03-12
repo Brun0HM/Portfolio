@@ -32,7 +32,10 @@ header {
   font-weight: medium;
   text-decoration: none;
   color: white;
+  transition: all 0.6s;
 }
+
+
 
 .GoTo:hover {
   color: #bc0a0a;
