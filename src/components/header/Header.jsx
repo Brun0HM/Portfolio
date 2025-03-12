@@ -8,13 +8,10 @@ const Header = () => {
           Home
         </a>
         <a className={styles.GoTo} href="">
-          Sobre
+        My projects
         </a>
         <a className={styles.GoTo} href="">
-          Meus Trabalhos
-        </a>
-        <a className={styles.GoTo} href="">
-          Contato
+          Contact
         </a>
       </div>
       <a
@@ -23,7 +20,7 @@ const Header = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Me contrate
+        Hire me
       </a>
     </header>
   );
