@@ -1,12 +1,13 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import NavBar from "./components/navBar/NavBar.jsx";
+import NavBar from "./components/NavBar.jsx";
+import github from "./assets/github.svg";
 
 const App = () => {
   return (
     <div>
-      <NavBar />
+      <NavBar github={github} />
     </div>
   );
 };
