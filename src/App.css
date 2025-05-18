@@ -1,10 +1,25 @@
 body {
   margin: 0;
   padding: 0;
-  background: #131313 !important;
+  scroll-behavior: smooth;
+  background-image: url("./assets/fundido.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.corNav {
+  background: rgba(18, 18, 18, 0.44);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(8.6px);
 }
 
-.corNav {
-  background: #181818 !important;
-  
+.github-logo-navbar {
+  position: absolute;
+  top: 8px;
+  right: 24px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1051;
 }
